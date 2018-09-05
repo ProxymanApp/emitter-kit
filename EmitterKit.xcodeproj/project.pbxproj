@@ -26,6 +26,7 @@
 		11E48E461B48CF730094741B /* NotificationListenerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E48E421B48CF730094741B /* NotificationListenerTests.swift */; };
 		11E48E471B48CF730094741B /* ChangeListenerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E48E431B48CF730094741B /* ChangeListenerTests.swift */; };
 		11F4760E19CC1DA500831EE5 /* Helpers.swift in Headers */ = {isa = PBXBuildFile; fileRef = 11F4760D19CC1DA500831EE5 /* Helpers.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA093654213FD4EF00616C05 /* VariableEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA093653213FD4EF00616C05 /* VariableEvent.swift */; };
 		CEB7AFFD1B11F01D007888F7 /* EmitterKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CEB7AFFC1B11F01D007888F7 /* EmitterKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		11E48E421B48CF730094741B /* NotificationListenerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotificationListenerTests.swift; path = ../tests/NotificationListenerTests.swift; sourceTree = "<group>"; };
 		11E48E431B48CF730094741B /* ChangeListenerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChangeListenerTests.swift; path = ../tests/ChangeListenerTests.swift; sourceTree = "<group>"; };
 		11F4760D19CC1DA500831EE5 /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		BA093653213FD4EF00616C05 /* VariableEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableEvent.swift; sourceTree = "<group>"; };
 		CEB7AFFC1B11F01D007888F7 /* EmitterKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +95,7 @@
 			children = (
 				1102852E19C9BD420069F253 /* Event.swift */,
 				1102853F19C9DC4F0069F253 /* Notifier.swift */,
+				BA093653213FD4EF00616C05 /* VariableEvent.swift */,
 			);
 			name = Emitter;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				1102853519C9BD720069F253 /* ChangeListener.swift in Sources */,
 				1102853C19C9BEDD0069F253 /* Listener.swift in Sources */,
 				1102853119C9BD600069F253 /* EventListener.swift in Sources */,
+				BA093654213FD4EF00616C05 /* VariableEvent.swift in Sources */,
 				1102854019C9DC4F0069F253 /* Notifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
