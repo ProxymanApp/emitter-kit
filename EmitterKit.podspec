@@ -3,9 +3,9 @@ Pod::Spec.new do |s|
   s.version = '5.2.0'
   s.license = 'MIT'
   s.summary = 'Type-safe event handling for Swift'
-  s.homepage = 'https://github.com/aleclarson/emitter-kit'
+  s.homepage = 'https://github.com/ProxymanApp/emitter-kit'
   s.authors = { 'Alec Larson' => '' }
-  s.source = { :git => 'https://github.com/aleclarson/emitter-kit.git', :tag => s.version }
+  s.source = { :git => 'https://github.com/ProxymanApp/emitter-kit.git', :tag => s.version }
 
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.9'
